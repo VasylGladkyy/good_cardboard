@@ -1,0 +1,31 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.button {
+  padding: 13px 22px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ff9d00; }
+  .button img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px; }
+
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .header-contacts_phone {
+    margin-right: 13px;
+    font-size: 22px; }
+  .header-contacts_separation-block {
+    margin-right: 13px;
+    width: 1px;
+    height: 32px;
+    background-color: #cfcfd0; }
+
+/*# sourceMappingURL=main.css.map */

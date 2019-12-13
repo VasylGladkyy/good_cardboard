@@ -1,4 +1,5 @@
 .header
+  padding: 15px 0
   &-contacts
     display: flex
     justify-content: flex-end
@@ -6,8 +7,7 @@
     &_phone
       margin-right: 13px
       font-size: 22px
-    &_separation-block
-      margin-right: 13px
-      width: 1px
-      height: 32px
-      background-color: $separation-block-color-gray
+      &:first-child
+        border-right: 1px solid $separation-block-color-gray
+        padding-right: 13px
+

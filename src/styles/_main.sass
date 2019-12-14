@@ -3,6 +3,7 @@
   padding-top: 60px
   padding-bottom: 65px
   background: #393C36 url("../img/main/bg.jpeg") center no-repeat
+  background-size: cover
   color: $text-color-white
   z-index: 2
 
@@ -37,6 +38,40 @@
         size: 41px
         weight: 700
     &_subtitle
+      margin-bottom: 27px
       font:
         size: 28px
         weight: 300
+    &_form
+      padding: 30px 27px
+      background-color: rgba(255, 255, 255, 0.2)
+
+.form
+  margin-bottom: 12px
+  display: flex
+  //justify-content: space-between
+  &-title
+    margin-bottom: 20px
+    padding-right: 87px
+    font:
+      size: 20px
+      weight: 300
+    line-height: 30px
+
+    &_upper-case
+      display: block
+      font-weight: 700
+      text-transform: uppercase
+
+  &_input
+    margin-right: 10px
+    font-size: 14px
+    padding: 21px
+    border-radius: 4px
+    border: none
+    flex-basis: 50%
+
+  &-small
+    font-size: 14px
+    font-weight: 300
+

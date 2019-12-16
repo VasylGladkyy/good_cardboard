@@ -13,12 +13,21 @@ input:focus, button:focus {
 
 .button {
   padding: 13px 22px;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
   background-color: #fd9c28; }
+  .button-o {
+    border: 1px solid rgba(55, 55, 55, 0.5);
+    background-color: transparent;
+    color: #373737; }
+    .button-o:hover {
+      color: #fda841;
+      color: #ffffff;
+      border: 1px solid transparent;
+      cursor: pointer; }
   .button img {
     vertical-align: middle;
     width: 20px;
@@ -31,6 +40,18 @@ input:focus, button:focus {
     padding-bottom: 20px;
     vertical-align: middle;
     width: 30%; }
+
+.section-title {
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+  .section-title::after {
+    margin-top: 12px;
+    content: "";
+    display: block;
+    height: 6px;
+    background: url("../img/line.png") center no-repeat; }
 
 .header {
   padding: 15px 0; }
@@ -155,6 +176,22 @@ input:focus, button:focus {
     .numbers-block__text {
       font-size: 16px;
       font-weight: 300; }
+
+.products {
+  padding-top: 57px;
+  padding-bottom: 73px; }
+  .products-block {
+    margin-bottom: 35px;
+    text-align: center; }
+    .products-block__img {
+      margin-bottom: 19px;
+      max-height: 280px; }
+    .products-block__title {
+      margin-bottom: 28px;
+      font-size: 20px;
+      font-weight: 700; }
+    .products-block_button {
+      margin-right: 12px; }
 
 .main {
   position: relative;

@@ -18,13 +18,13 @@ input:focus, button:focus {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
-  background-color: #ff9d00; }
+  background-color: #fd9c28; }
   .button img {
     vertical-align: middle;
     width: 20px;
     height: 20px; }
   .button:hover {
-    background-color: #ffa71a;
+    background-color: #fda841;
     cursor: pointer; }
   .button_big {
     padding-top: 20px;
@@ -115,6 +115,46 @@ input:focus, button:focus {
         font-weight: 300;
         text-align: center;
         line-height: 30px; }
+
+.features {
+  padding-top: 49px;
+  padding-bottom: 55px;
+  background-color: #f4f4f4; }
+  .features-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .features-block {
+    margin-bottom: 30px;
+    padding: 28px 19px;
+    display: flex;
+    align-items: center;
+    flex-basis: 31%;
+    background-color: #ffffff; }
+    .features-block__img {
+      margin-right: 9px;
+      flex-basis: 40%; }
+    .features-block__title {
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-weight: 700; }
+
+.numbers {
+  margin-bottom: 37px;
+  text-align: center; }
+  .numbers-block {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top; }
+    .numbers-block__title {
+      font-size: 36px;
+      font-weight: 900;
+      color: #fd9c28; }
+      .numbers-block__title sup {
+        font-size: 18px; }
+    .numbers-block__text {
+      font-size: 16px;
+      font-weight: 300; }
 
 .main {
   position: relative;

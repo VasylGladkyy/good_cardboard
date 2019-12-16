@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.header-contacts_button').on('click', function () {
+    $('.header-contacts__button').on('click', function () {
         $('.overlay').show();
     });
 

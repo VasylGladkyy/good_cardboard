@@ -38,10 +38,10 @@ input:focus, button:focus {
     display: flex;
     justify-content: flex-end;
     align-items: center; }
-    .header-contacts_phone {
+    .header-contacts__phone {
       margin-right: 13px;
       font-size: 22px; }
-      .header-contacts_phone:first-child {
+      .header-contacts__phone:first-child {
         border-right: 1px solid #cfcfd0;
         padding-right: 13px; }
 
@@ -84,32 +84,32 @@ input:focus, button:focus {
       background: #ffffff url("../img/modal/bg-image.png") center no-repeat;
       background-size: cover;
       color: #ffffff; }
-      .overlay .popup-form_header {
+      .overlay .popup-form__header {
         padding: 0;
         font-size: 30px;
         font-weight: 400;
         font-height: 27px;
         text-align: center; }
-        .overlay .popup-form_header span {
+        .overlay .popup-form__header span {
           font-size: 24px; }
-      .overlay .popup-form_label {
+      .overlay .popup-form__label {
         margin-top: 23px;
         display: block;
         font-size: 20px;
         font-weight: 300;
         line-height: 30px; }
-      .overlay .popup-form_input {
+      .overlay .popup-form__input {
         margin-top: 17px;
         padding-left: 18px;
         border: none;
         border-radius: 2px;
         width: 365px;
         height: 56px; }
-      .overlay .popup-form_button {
+      .overlay .popup-form__button {
         margin-left: 16px;
         width: 180px;
         height: 56px; }
-      .overlay .popup-form_note {
+      .overlay .popup-form__note {
         margin-top: 9px;
         font-size: 14px;
         font-weight: 300;
@@ -146,15 +146,15 @@ input:focus, button:focus {
       border: 1px solid #ffffff;
       border-radius: 50%;
       z-index: -1; }
-  .main-text_title {
+  .main-text__title {
     margin-bottom: 20px;
     font-size: 41px;
     font-weight: 700; }
-  .main-text_subtitle {
+  .main-text__subtitle {
     margin-bottom: 27px;
     font-size: 28px;
     font-weight: 300; }
-  .main-text_form {
+  .main-text__form {
     padding: 30px 27px;
     background-color: rgba(255, 255, 255, 0.2); }
 
@@ -167,11 +167,11 @@ input:focus, button:focus {
     font-size: 20px;
     font-weight: 300;
     line-height: 30px; }
-    .form-title_upper-case {
+    .form-title__upper-case {
       display: block;
       font-weight: 700;
       text-transform: uppercase; }
-  .form_input {
+  .form__input {
     margin-right: 10px;
     font-size: 14px;
     padding: 21px;

@@ -1,12 +1,23 @@
 .button
   padding: 13px 22px
-  border: none
+  border: 1px solid transparent
   border-radius: 5px
   font:
     size: 14px
     weight: 400
   color: $text-color-white
   background-color: $active-color
+
+  &-o
+    border: 1px solid rgba(#373737, 0.5)
+    background-color: transparent
+    color: $text-color-dark
+    &:hover
+      color: lighten($active-color, 5)
+      color: $text-color-white
+      border: 1px solid transparent
+      cursor: pointer
+
   img
     vertical-align: middle
     width: 20px
@@ -21,3 +32,17 @@
     padding-bottom: 20px
     vertical-align: middle
     width: 30%
+
+
+.section-title
+  font:
+    size: 27px
+    weight: 700
+  text-transform: uppercase
+  text-align: center
+  &::after
+    margin-top: 12px
+    content: ''
+    display: block
+    height: 6px
+    background: url("../img/line.png") center no-repeat

@@ -38,10 +38,10 @@ input:focus, button:focus {
     display: flex;
     justify-content: flex-end;
     align-items: center; }
-    .header-contacts_phone {
+    .header-contacts__phone {
       margin-right: 13px;
       font-size: 22px; }
-      .header-contacts_phone:first-child {
+      .header-contacts__phone:first-child {
         border-right: 1px solid #cfcfd0;
         padding-right: 13px; }
 

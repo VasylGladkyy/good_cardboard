@@ -146,15 +146,15 @@ input:focus, button:focus {
       border: 1px solid #ffffff;
       border-radius: 50%;
       z-index: -1; }
-  .main-text_title {
+  .main-text__title {
     margin-bottom: 20px;
     font-size: 41px;
     font-weight: 700; }
-  .main-text_subtitle {
+  .main-text__subtitle {
     margin-bottom: 27px;
     font-size: 28px;
     font-weight: 300; }
-  .main-text_form {
+  .main-text__form {
     padding: 30px 27px;
     background-color: rgba(255, 255, 255, 0.2); }
 
@@ -167,11 +167,11 @@ input:focus, button:focus {
     font-size: 20px;
     font-weight: 300;
     line-height: 30px; }
-    .form-title_upper-case {
+    .form-title__upper-case {
       display: block;
       font-weight: 700;
       text-transform: uppercase; }
-  .form_input {
+  .form__input {
     margin-right: 10px;
     font-size: 14px;
     padding: 21px;

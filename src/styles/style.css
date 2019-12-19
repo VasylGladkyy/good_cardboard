@@ -291,4 +291,31 @@ input:focus, button:focus {
     font-size: 14px;
     font-weight: 300; }
 
+.production {
+  padding-top: 87px;
+  padding-bottom: 90px; }
+  .production-slider {
+    position: relative;
+    z-index: 2; }
+  .production-text {
+    max-width: 379px; }
+    .production-text__title {
+      margin-bottom: 28px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      position: relative;
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 22px;
+      background-color: #fd9c28;
+      transform: translateX(-10%);
+      width: 110%;
+      padding-left: 10%; }
+    .production-text__description {
+      font-size: 16px;
+      font-weight: 300;
+      font-height: 24px;
+      text-align: justify; }
+
 /*# sourceMappingURL=style.css.map */

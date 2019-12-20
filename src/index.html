@@ -14,21 +14,23 @@
 <header class="header">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-4">
+            <div class="col-3 col-md-4">
                 <div class="header-logo">
-                    <img src="img/header/header-logo.png" alt="header logo">
                 </div>
             </div>
             <!-- /.col-4 -->
-            <div class="col-8">
+            <div class="col-9 col-md-8">
                 <div class="header-contacts">
-                    <div class="header-contacts__phone">8 (347) 271-54-28</div>
-                    <!-- /.header-contacts_phone -->
-                    <div class="header-contacts__phone">8 (937) 363-30-00</div>
-                    <!-- /.header-contacts_phone -->
+                    <div class="header-contacts__phones">
+                        <div class="header-contacts__phone">8 (347) 271-54-28</div>
+                        <!-- /.header-contacts_phone -->
+                        <div class="header-contacts__phone">8 (937) 363-30-00</div>
+                        <!-- /.header-contacts_phone -->
+                    </div>
+                    <!-- /.header-contacts-phones -->
                     <button class="header-contacts__button button">
                         <img src="img/header/phone-from-button.png" alt="icon phone">
-                        Заказать звонок
+                        <span class="hidden_mobile">Заказать звонок</span>
                     </button>
                     <!-- /.header-contacts_button -->
                 </div>
@@ -44,14 +46,14 @@
 <section class="main dark-bg">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-5">
-                <div class="main-img animated wow fadeInUp">
+            <div class="col-12 col-md-5">
+                <div class="main-img animated wow fadeInUp hidden_mobile">
                     <img src="img/main/boxes.png" alt="Box photo">
                 </div>
                 <!-- /.main-img -->
             </div>
             <!-- /.col-5 -->
-            <div class="col-7">
+            <div class="col-12 col-md-7">
                 <div class="main-text">
                     <h1 class="main-text__title">
                         Производство упаковки из гофрокартона
@@ -261,7 +263,7 @@
         <h2 class="section-title animated wow fadeInUp">наша Продукция</h2>
         <!-- /.section-title -->
         <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="products-block animated wow zoomIn" data-wow-delay="0.1s">
                     <img class="products-block__img" src="img/products/img-1.png" alt="#">
                     <div class="products-block__title">Гофрокороб 4-х клапанный</div>
@@ -277,7 +279,7 @@
                 <!-- /.products-block -->
             </div>
             <!-- /.col-6 -->
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="products-block animated wow zoomIn" data-wow-delay="0.2s">
                     <img class="products-block__img" src="img/products/img-2.png" alt="#">
                     <div class="products-block__title">Гофролоток</div>
@@ -296,7 +298,7 @@
         </div>
         <!-- /.row -->
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="products-block animated wow zoomIn" data-wow-delay="0.3s">
                     <img class="products-block__img" src="img/products/img-3.png" alt="#">
                     <div class="products-block__title">Гофрокороб самосборный (сложная высечка)</div>
@@ -312,7 +314,7 @@
                 <!-- /.products-block -->
             </div>
             <!-- /.col-6 -->
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="products-block animated wow zoomIn" data-wow-delay="0.4s">
                     <img class="products-block__img" src="img/products/img-4.png" alt="#">
                     <div class="products-block__title">Листовой гофрокартон</div>
@@ -356,40 +358,41 @@
 </section>
 <!-- /.offer -->
 
-<section class="production">
-<div class="container">
-    <div class="row">
-        <div class="production-slider col-6">
-            <div class="fotorama"
-                 data-nav="thumbs"
-                 data-width="535"
-                 data-maxwidth="100%"
-                 data-autoplay="true">
-                <img src="img/main/bg.jpeg">
-                <img src="img/production/slide2.jpg">
-                <img src="img/production/slide3.jpg">
-                <img src="img/production/slide4.jpg">
-            </div>
-        </div>
-        <!-- /.slider -->
-        <div class="production-text col-6">
-            <div class="production-text__title">
-                Производство
-            </div>
-            <!-- /.production-text__title -->
-            <div class="production-text__description">
-                Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона ежемесячно. Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
-                Досконально прорабатываем конструкции коро- бов и составы сырья, учитывая условия хранения, транспортировки и производства вашей продукции.
-                Возможно нанесение цветной флексопечати на поверхность коробов.
-            </div>
-            <!-- /.production-text__description -->
-        </div>
-        <!-- /.production-text -->
-    </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-</section>
+<!--<section class="production">-->
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="production-slider_top col-7">-->
+<!--            <div class="fotorama"-->
+<!--                 data-nav="thumbs"-->
+<!--                 data-width="535"-->
+<!--                 data-maxwidth="100%"-->
+<!--                 data-autoplay="true">-->
+<!--                <img src="img/main/bg.jpeg">-->
+<!--                <img src="img/main/bg.jpeg">-->
+<!--                <img src="img/main/bg.jpeg">-->
+<!--                <img src="img/main/bg.jpeg">-->
+
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; /.slider &ndash;&gt;-->
+<!--        <div class="production-text col-6">-->
+<!--            <div class="production-text__title">-->
+<!--                Производство-->
+<!--            </div>-->
+<!--            &lt;!&ndash; /.production-text__title &ndash;&gt;-->
+<!--            <div class="production-text__description">-->
+<!--                Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона ежемесячно. Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.-->
+<!--                Досконально прорабатываем конструкции коро- бов и составы сырья, учитывая условия хранения, транспортировки и производства вашей продукции.-->
+<!--                Возможно нанесение цветной флексопечати на поверхность коробов.-->
+<!--            </div>-->
+<!--            &lt;!&ndash; /.production-text__description &ndash;&gt;-->
+<!--        </div>-->
+<!--        &lt;!&ndash; /.production-text &ndash;&gt;-->
+<!--    </div>-->
+<!--    &lt;!&ndash; /.row &ndash;&gt;-->
+<!--</div>-->
+<!--&lt;!&ndash; /.container &ndash;&gt;-->
+<!--</section>-->
 <script defer src="js/jquery-3.4.1.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script defer src="js/script.js"></script>

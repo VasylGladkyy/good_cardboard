@@ -1,0 +1,55 @@
+@media (max-width: 576px)
+  .header
+    &-logo
+      background: $active-color url(../img/header/header_logo_mobile.png) center no-repeat
+      border-radius: 4px
+      width: 35px
+      height: 36px
+    &-contacts
+      &__phone
+        &s
+          flex-direction: column
+        margin-right: 0
+        font-size: 14px
+        &:first-child
+          border: none
+      &__button
+        display: inline-block
+        padding: 7px
+  .main
+    padding-top: 50px
+    text-align: center
+    &-text
+      &__title
+        font-size: 22px
+        color: $active-color
+      &__subtitle
+        margin-bottom: 40px
+        font-size: 18px
+      &__form
+        padding: 10px
+        background-color: transparent
+
+  .form
+    display: block
+    &-title
+      padding-right: 0
+      font-size: 15px
+      line-height: 1.4
+    &__input
+      margin-bottom: 13px
+      display: block
+      text-align: center
+
+  .numbers
+    &-block
+      margin-bottom: 24px
+      display: block
+      width: 100%
+
+  .features
+    &-blocks
+      flex-direction: column
+  .hidden_mobile
+    display: none
+

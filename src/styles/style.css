@@ -340,6 +340,30 @@ input:focus, button:focus {
       align-items: center;
       height: 91px; }
 
+.contacts {
+  position: relative; }
+  .contacts-block {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 33px 34px 39px 34px;
+    background-color: #ffffff; }
+    .contacts-block__group {
+      display: flex; }
+    .contacts-block__logo {
+      margin-top: 8px;
+      margin-right: 12px; }
+    .contacts-block__title {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      display: block;
+      font-size: 18px;
+      font-weight: 500; }
+    .contacts-block__text {
+      margin-bottom: 30px; }
+    .contacts-block__cta {
+      margin-left: 10%; }
+
 @media (max-width: 990px) {
   .numbers-block {
     margin-bottom: 24px; } }

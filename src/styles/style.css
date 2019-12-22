@@ -344,7 +344,7 @@ input:focus, button:focus {
   position: relative; }
   .contacts-block {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 10%;
     padding: 33px 34px 39px 34px;
     background-color: #ffffff; }
@@ -363,6 +363,19 @@ input:focus, button:focus {
       margin-bottom: 30px; }
     .contacts-block__cta {
       margin-left: 10%; }
+
+.footer {
+  background-color: #1b1b1b;
+  padding-top: 36px;
+  padding-bottom: 39px;
+  text-align: center; }
+  .footer-text {
+    display: inline-block;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17px; }
 
 @media (max-width: 990px) {
   .numbers-block {
